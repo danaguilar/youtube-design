@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <title>YouTube</title>
+  <link rel = "stylesheet" href="youtube.css"
+</head>
+
+<body>
+<header>
+    <!-- This will contain the following:
+            YouTube Logo
+            Search Bar
+            Upload Icon
+            Notification Icon
+            User Icon
+    -->
+    <div class="logo-button">
+      <div id="sandwitch-icon"></div>
+      <div id="logo"></div>
+    </div>
+    <div class="search-bar">
+      <form>
+        <input type="text" placeholder = "  Search" class = "search">
+        <input type="submit" class = "submit-button">
+      </form>
+    </div>
+    <nav class = 'nav-icons'>
+      <div id="upload"></div>
+      <div id="notification"></div>
+      <div id="user-icon"></div>
+    </nav>
+
+</header>
+<div class = "main-container">
+<section class = "video_container">
+  <!-- This section will contain everything related to the video. This includes:
+          Video itself
+          Video details
+          Video Description
+          Comments
+    -->
+
+    <div class = "video">
+      <!--<iframe width="850" height="475" src="https://www.youtube.com/embed/V74l_zS1x8E?rel=0" frameborder="0" allowfullscreen></iframe>
+      -->
+    </div>
+    <div class = "video_details">
+      <h3>Contributing to Open Source Part I: The Easy Way</h3>
+        <div class="user-image"><img src=''></div>
+        <div class="view-number">29,511 views</div>
+        <div class="channel-name"><h5>The Odin Project</h5></div>
+        <div class="subscribe-button">Subscribe</div>
+        <div class="subscription-number">458</div>
+
+      <nav class="options-bar">
+        <a href='#'>Add to </a>
+        <a href='#'>Share</a>
+        <a href='#'>More </a>
+        <div class="like-bar">
+          <a href='#'>188 </a>
+          <a href='#'>5 </a>
+        </div>
+
+      </nav>
+
+    </div>
+    <div class = "video_description">
+      <div class = "published-date"><strong>Published on Feb 27, 2014</strong></div>
+      <div class = "description"> How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The </div>
+      <div class = "show-button"><a href = "#">Show More</a></div>
+    </div>
+    <div class = "comments"></div>
+</section>
+<section class = "suggestions_container">
+  <!-- This section will contain everything related to the suggestions sidebar. This includes:
+          "Up Next" video
+          List of other videos
+  -->
+<div class = "suggested_video"></div>
+</section>
+
+</div>
+<footer>
+
+</footer>
+  <!-- This section will contain everything related to the footer. This includes
+        YouTube logo
+        Settings buttons
+        About links
+  -->
+  <div class = "settings"></div>
+  <nav class = "important_links"></nav>
+  <nav class = "minor_links"></nav>
+</body>

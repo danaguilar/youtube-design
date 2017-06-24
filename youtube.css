@@ -1,0 +1,144 @@
+body{
+  background-color: #F1F1F1;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header{
+  height: 50px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-button{
+  display: inline-block;
+  margin: 8px 0 0 30px;
+}
+
+#sandwitch-icon{
+  height: 15px;
+  width: 15px;
+  background: no-repeat url('sprite-sheet.png') -322px -168px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+#logo{
+  height: 30px;
+  width: 100px;
+  background: no-repeat url('sprite-sheet.png') -178px -227px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.search-bar{
+  display: inline-block;
+  width: 700px;
+
+
+}
+.search-bar .search{
+  height: 30px;
+  width: 500px;
+  box-sizing: border-box;
+  border: 1px solid #AF9797;
+}
+
+.search-bar .submit-button{
+
+}
+
+/* Main Container */
+.main-container{
+  margin-top: 10px;
+}
+
+
+/* Videos */
+.video{
+  border-width: thin;
+  border-style: solid;
+  border-color: green;
+  height: 475px;
+}
+
+/* Video Details section */
+.video_details{
+  border-width: thin;
+  border-style: solid;
+  border-color: blue;
+  height: 150px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+.user-image{
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.channel-name h5{
+  margin: 0px;
+}
+.user-image img{
+  width: 50px;
+  height: 50px;
+
+}
+
+.view-number{
+  float: right;
+  margin-top: 25px;
+}
+
+.channel-name{
+  display: inline-block;
+}
+
+/*********************/
+
+.video_container{
+  display: inline-block;
+  margin-right: 10px;
+  width: 850px;
+}
+
+/* Video description */
+.video_description{
+  border-width: thin;
+  border-style: solid;
+  border-color: purple;
+  height: 150px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+
+.comments{
+  background-color: green;
+  height: 500px;
+  margin-top: 10px;
+}
+
+/* Suggestion sidebar */
+.suggestions_container{
+  display: inline-block;
+  position: absolute;
+  background-color: red;
+  width: 425px;
+  height: 900px;
+}
+
+
+/* Footer */
+footer{
+  bottom:0;
+  height: 150px;
+  background-color: white;
+  margin: 0 0 15px 0;
+  padding: 0
+}
