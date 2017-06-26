@@ -142,15 +142,32 @@ form{
   height: 150px;
   margin-top: 10px;
   padding: 15px;
+  background-color: white;
 }
 
 
 .comments{
-  background-color: green;
+  border-width: thin;
+  border-style: solid;
+  border-color: green;
   height: 500px;
   margin-top: 10px;
+  background-color: white;
+  padding: 15px;
 }
 
+.new-comment{
+  height: 50px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: #E2E2E2;
+}
+
+.existing-comments{
+  padding-top: 15px;
+}
 /* Suggestion sidebar */
 .suggestions_container{
   display: inline-block;
